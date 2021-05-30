@@ -1,0 +1,9 @@
+vi ~/.bashrc
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin
+
+export GOPATH=/home/hammad/go
+export PATH=$PATH:$GOPATH/bin
+
+export GOPATH=$GOPATH:/home/hammad/gocode
+export PATH=/home/hammad/fabricimages/fabric-samples/bin
